@@ -91,7 +91,10 @@
 
                     {% for category in categories %}
                     {% if category.id != 3%}
-                    <form action="" method="POST">{% csrf_token %}
+                    <form action=".delete" method="POST">{% casrf_token %}
+                    </form>
+                    {% endif %}
+                    {% endfor %}
                         <div class = "input-group">
                             <span class = "input-group-addon": id=""style="border:1px solid #ccc; border-radius: 4px;">{{category.category_name}}</span>
                             <input type = "hidden" name="categoryID" id="categoryId" value=""/>

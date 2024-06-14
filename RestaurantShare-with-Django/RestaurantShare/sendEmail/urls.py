@@ -15,6 +15,7 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 # sendEmail > urls.py
+from django.shortcuts import render
 from django.urls import path, include
 from . import views
 
