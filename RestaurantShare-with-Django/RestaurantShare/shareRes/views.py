@@ -4,7 +4,7 @@ from django.http import HttpResponse
 # Create your views here.
 def index(request):
 #   return HttpResponse("index")
-    return render(request, 'shareRes/index.html')
+    return render(request, 'templetes/shareRes/index.html')
 
 def restaurantDetail(request):
 #    return HttpResponse("restaurantDetail")
