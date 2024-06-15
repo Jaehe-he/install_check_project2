@@ -31,7 +31,7 @@ def sendEmail(request):
 
     msg = MIMEMultipart('alternative')
     msg['Subject'] = inputTitle
-    msg['From'] = "djangoemailtester001@gmail.com"
+    msg['From'] = "happygood1212@gmail.com"
     msg['To'] = inputReceiver
     mail_html = MIMEText(mail_html,'html')
     msg.attach(mail_html)
